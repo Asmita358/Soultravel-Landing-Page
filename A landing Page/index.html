@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>SoulTravel</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Soul<span>Travel</span>.</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#destination">Destination</a></li>
+        <li><a href="#package">Package</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn sign__up" onclick="signUp()">Sign Up</button>
+        <button class="btn sign__in" onclick="signIn()">Sign In</button>
+      </div>
+    </nav>
+    <header class="header__container">
+      <div class="header__image">
+        <div class="header__image__card header__image__card-1">
+          <span><i class="ri-key-line"></i></span>
+          Hotel Booking
+        </div>
+        <div class="header__image__card header__image__card-2">
+          <span><i class="ri-passport-line"></i></span>
+          Flight Tickets
+        </div>
+        <div class="header__image__card header__image__card-3">
+          <span><i class="ri-map-2-line"></i></span>
+          Local Events
+        </div>
+        <div class="header__image__card header__image__card-4">
+          <span><i class="ri-guide-line"></i></span>
+          Tour Guide
+        </div>
+        <img src="header.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>LET'S GO!<br />THE <span>ADVENTURE</span> IS WAITING FOR YOU</h1>
+        <p>
+          Embark on Your Journey Today and Discover Uncharted Wonders Around the
+          World - Your Adventure Awaits with Exciting Experiences, Unforgettable
+          Memories, and Endless Opportunities
+        </p>
+        <form action="/">
+          <div class="input__row">
+            <div class="input__group">
+              <h5>Destination</h5>
+              <div>
+                <span><i class="ri-map-pin-line"></i></span>
+                <input type="text" placeholder="Paris, France" />
+              </div>
+            </div>
+            <div class="input__group">
+              <h5>Date</h5>
+              <div>
+                <span><i class="ri-calendar-2-line"></i></span>
+                <input type="text" placeholder="17 July 2024" />
+              </div>
+            </div>
+          </div>
+          <button type="submit">Search</button>
+        </form>
+        <div class="bar">
+          Copyright © 2024. All rights reserved.
+        </div>
+      </div>
+    </header>
+
+    <section id="destination">
+      <h2>Explore Our Top Destinations</h2>
+      <p>Discover the most beautiful and exciting destinations around the world. Whether you're looking for a relaxing beach getaway or an 
+        adventurous mountain trek, we have something for everyone.</p>
+      <div class="destination-list">
+          <div class="destination-item">
+              <h3>Paris, France</h3>
+              <p>The city of love, known for its stunning architecture, world-class museums, and delicious cuisine.
+                 Don't miss the Eiffel Tower, Louvre Museum, and charming cafes.</p>
+          </div>
+          <div class="destination-item">
+              <h3>Kyoto, Japan</h3>
+              <p>Experience the serene beauty of traditional Japan with its historic temples, beautiful gardens,
+                and vibrant culture. Visit the Fushimi Inari Shrine, Kinkaku-ji, and Arashiyama Bamboo Grove.</p>
+          </div>
+          <div class="destination-item">
+              <h3>Sydney, Australia</h3>
+              <p>Enjoy the sunny beaches, iconic landmarks, and vibrant city life. Highlights include the Sydney Opera House,
+                 Bondi Beach, and the Sydney Harbour Bridge.</p>
+          </div>
+      </div>
+  </section>
+
+  <section id="package">
+    <h2>Exclusive Travel Packages</h2>
+    <p>Choose from a variety of tailor-made travel packages designed to give you the best experience. Our packages 
+       accommodations, guided tours, and exclusive activities.</p>
+    <div class="package-list">
+        <div class="package-item">
+            <h3>Romantic Getaway</h3>
+            <p>A perfect package for couples looking to escape the daily grind. Includes a stay at a luxury
+               resort, romantic dinners, and spa treatments.</p>
+        </div>
+        <div class="package-item">
+            <h3>Adventure Trip</h3>
+            <p>For the thrill-seekers, this package includes activities like hiking, rafting, and zip-lining in some
+               of the most beautiful natural settings.</p>
+        </div>
+        <div class="package-item">
+            <h3>Family Vacation</h3>
+            <p>An ideal package for families with fun activities for all ages. Includes theme park tickets, 
+              family-friendly hotels, and guided tours.</p>
+        </div>
+    </div>
+</section>
+<section id="blog">
+  <h2>Travel Blog</h2>
+  <p>Get the latest travel tips, destination guides, and inspirational stories from our travel experts. Stay informed
+     and inspired for your next adventure.</p>
+  <div class="blog-list">
+      <div class="blog-item">
+          <h3>Top 10 Beaches to Visit in 2024</h3>
+          <p>Discover the most beautiful beaches around the world, perfect for sunbathing, swimming, and water sports.</p>
+          <a href="#">Read More</a>
+      </div>
+      <div class="blog-item">
+          <h3>How to Travel on a Budget</h3>
+          <p>Learn tips and tricks for saving money while traveling without compromising on experiences.</p>
+          <a href="#">Read More</a>
+      </div>
+      <div class="blog-item">
+          <h3>The Ultimate Packing Guide</h3>
+          <p>Find out what to pack for different types of trips, ensuring you have everything you need without overpacking.</p>
+          <a href="#">Read More</a>
+      </div>
+  </div>
+</section>
+<section id="about-us">
+  <h2>About Us</h2>
+  <p>At SoulTravel, we believe that travel enriches the soul. Our mission is to make travel accessible, enjoyable, 
+    and memorable for everyone. With years of experience in the travel industry, we offer personalized services to meet your unique travel needs.</p>
+  <p>We are passionate about exploring new destinations and sharing our knowledge with you. Our team of travel experts is 
+    dedicated to providing exceptional service, from planning your trip to ensuring you have a wonderful experience.</p>
+</section>
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>We'd love to hear from you! Whether you have questions about our services, need help with booking, or just want to share your travel experiences, feel free to reach out to us.</p>
+  <form action="/submit_contact_form" method="post" id="contact-form">
+      <div class="contact-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+      </div>
+      <div class="contact-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+      </div>
+      <div class="contact-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit">Send Message</button>
+  </form>
+  <div class="contact-details">
+      <p>Email: jainasmita04@gmail.com</p>
+      <p>Phone: +91 86956 75890</p>
+  </div>
+</section>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
